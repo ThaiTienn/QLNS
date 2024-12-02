@@ -1,0 +1,9 @@
+D:\Project\HopeMoney\Project\DaiHocAnGiang_ThaiTien_QuanLyNhanSu\PMQuanLyNhanSu\DAO\bin\Release\DAO.dll
+D:\Project\HopeMoney\Project\DaiHocAnGiang_ThaiTien_QuanLyNhanSu\PMQuanLyNhanSu\DAO\bin\Release\DAO.pdb
+D:\Project\HopeMoney\Project\DaiHocAnGiang_ThaiTien_QuanLyNhanSu\PMQuanLyNhanSu\DAO\bin\Release\DTO.dll
+D:\Project\HopeMoney\Project\DaiHocAnGiang_ThaiTien_QuanLyNhanSu\PMQuanLyNhanSu\DAO\bin\Release\DTO.pdb
+D:\Project\HopeMoney\Project\DaiHocAnGiang_ThaiTien_QuanLyNhanSu\PMQuanLyNhanSu\DAO\obj\Release\DAO.csproj.AssemblyReference.cache
+D:\Project\HopeMoney\Project\DaiHocAnGiang_ThaiTien_QuanLyNhanSu\PMQuanLyNhanSu\DAO\obj\Release\DAO.csproj.CoreCompileInputs.cache
+D:\Project\HopeMoney\Project\DaiHocAnGiang_ThaiTien_QuanLyNhanSu\PMQuanLyNhanSu\DAO\obj\Release\DAO.csproj.Up2Date
+D:\Project\HopeMoney\Project\DaiHocAnGiang_ThaiTien_QuanLyNhanSu\PMQuanLyNhanSu\DAO\obj\Release\DAO.dll
+D:\Project\HopeMoney\Project\DaiHocAnGiang_ThaiTien_QuanLyNhanSu\PMQuanLyNhanSu\DAO\obj\Release\DAO.pdb

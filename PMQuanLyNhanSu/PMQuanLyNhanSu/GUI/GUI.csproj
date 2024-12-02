@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5ACD0075-01D4-420A-9B25-84EF4DF89052}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDangNhap.Designer.cs">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UC_BaoCaoChamCong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_BaoCaoChamCong.Designer.cs">
+      <DependentUpon>UC_BaoCaoChamCong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_BaoCaoLuong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_BaoCaoLuong.Designer.cs">
+      <DependentUpon>UC_BaoCaoLuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_BaoCaoNhanVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_BaoCaoNhanVien.Designer.cs">
+      <DependentUpon>UC_BaoCaoNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ChamCong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ChamCong.Designer.cs">
+      <DependentUpon>UC_ChamCong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_PhuCapNhanVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_PhuCapNhanVien.Designer.cs">
+      <DependentUpon>UC_PhuCapNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_QLCV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_QLCV.Designer.cs">
+      <DependentUpon>UC_QLCV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_QLNV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_QLNV.Designer.cs">
+      <DependentUpon>UC_QLNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_QLPB.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_QLPB.Designer.cs">
+      <DependentUpon>UC_QLPB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_QLPC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_QLPC.Designer.cs">
+      <DependentUpon>UC_QLPC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_QLTK.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_QLTK.Designer.cs">
+      <DependentUpon>UC_QLTK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_SoGioLam.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_SoGioLam.Designer.cs">
+      <DependentUpon>UC_SoGioLam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_ThuongPhatNhanVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ThuongPhatNhanVien.Designer.cs">
+      <DependentUpon>UC_ThuongPhatNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_TinhLuong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_TinhLuong.Designer.cs">
+      <DependentUpon>UC_TinhLuong.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmDangNhap.resx">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UC_BaoCaoChamCong.resx">
+      <DependentUpon>UC_BaoCaoChamCong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_BaoCaoLuong.resx">
+      <DependentUpon>UC_BaoCaoLuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_BaoCaoNhanVien.resx">
+      <DependentUpon>UC_BaoCaoNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_ChamCong.resx">
+      <DependentUpon>UC_ChamCong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_PhuCapNhanVien.resx">
+      <DependentUpon>UC_PhuCapNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_QLCV.resx">
+      <DependentUpon>UC_QLCV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_QLNV.resx">
+      <DependentUpon>UC_QLNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_QLPB.resx">
+      <DependentUpon>UC_QLPB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_QLPC.resx">
+      <DependentUpon>UC_QLPC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_QLTK.resx">
+      <DependentUpon>UC_QLTK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_SoGioLam.resx">
+      <DependentUpon>UC_SoGioLam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_ThuongPhatNhanVien.resx">
+      <DependentUpon>UC_ThuongPhatNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_TinhLuong.resx">
+      <DependentUpon>UC_TinhLuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{BF1F8D43-68B9-4DE2-B7C3-B7FBF1C24535}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{3D6D638B-6F1C-47E0-8897-3ECB48547C74}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

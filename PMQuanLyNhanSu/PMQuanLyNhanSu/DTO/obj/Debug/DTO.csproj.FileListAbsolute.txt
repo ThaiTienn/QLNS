@@ -1,0 +1,6 @@
+D:\Project\HopeMoney\Project\DaiHocAnGiang_ThaiTien_QuanLyNhanSu\PMQuanLyNhanSu\DTO\bin\Debug\DTO.dll
+D:\Project\HopeMoney\Project\DaiHocAnGiang_ThaiTien_QuanLyNhanSu\PMQuanLyNhanSu\DTO\bin\Debug\DTO.pdb
+D:\Project\HopeMoney\Project\DaiHocAnGiang_ThaiTien_QuanLyNhanSu\PMQuanLyNhanSu\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\Project\HopeMoney\Project\DaiHocAnGiang_ThaiTien_QuanLyNhanSu\PMQuanLyNhanSu\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Project\HopeMoney\Project\DaiHocAnGiang_ThaiTien_QuanLyNhanSu\PMQuanLyNhanSu\DTO\obj\Debug\DTO.dll
+D:\Project\HopeMoney\Project\DaiHocAnGiang_ThaiTien_QuanLyNhanSu\PMQuanLyNhanSu\DTO\obj\Debug\DTO.pdb
